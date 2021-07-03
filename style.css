@@ -48,7 +48,6 @@ body{
 .third-section{
     width: 40rem;
     margin-left: 5%;
-    border-left: 5px solid blue;
     margin-top: 3%;
     padding: 2rem 0 2rem 2rem;
     -webkit-box-shadow: 0px 0px 28px 8px rgba(0,0,0,0.65); 
@@ -72,6 +71,20 @@ box-shadow: 0px 0px 28px 8px rgba(0,0,0,0.65);
     background: url(images/exp-bg.png) no-repeat;
     background-position:left;
     margin-bottom: 10rem;
+}
+.border1{
+    border-left: 0.7rem solid;
+    border-image: linear-gradient(
+180deg
+, lightsalmon, tomato);
+    border-image-slice: 1
+}
+.border2{
+    border-left: 0.7rem solid;
+    border-image: linear-gradient(
+180deg
+, blue, cyan);
+    border-image-slice: 1;
 }
 .exp{
     font-size: 2rem;
