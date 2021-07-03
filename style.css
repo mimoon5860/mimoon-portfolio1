@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.mimoon-color{
+    color: orange;
+}
+.head-section{
+     background: url(images/top-banner.png) no-repeat;
+}
+section{
+    display: flex;
+    margin-bottom: 5rem;
+}
+.half-header{
+    width: 50%;
+    margin-left: 5%;
+}
+.button-my-profile{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(orange, rgb(122, 105, 72) );
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.half-header h1{
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.3rem;
+}
+.half-header h3{
+    margin: 3rem 0 1rem 0;
+}
+.half-header p{
+    width: 80%;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+.half-header img{
+    width: 80%;
+}
+.mid-section{
+    background: url(images/dream-bg.png) no-repeat;
+    background-position:right;
+}
