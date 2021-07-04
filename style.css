@@ -19,7 +19,7 @@ body{
 .button-my-profile{
     text-decoration: none;
     color: white;
-    background: linear-gradient(orange, rgb(122, 105, 72) );
+    background: linear-gradient(#FFA231, #FFC91C);
     padding: 10px 40px;
     border-radius: 5px;
     font-weight: 700;
